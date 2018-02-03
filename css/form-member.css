@@ -1,0 +1,67 @@
+/********************************* CONTACT FORM ********************************/
+#form-text{
+    position: absolute;
+    z-index: 3;
+    margin: 50px 0px 0px 80px;
+    
+}
+#back-grey{
+    position: absolute;
+    z-index: 2;
+    background: #f9f9fb;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    
+}
+#back-yell{
+    position: absolute;
+    z-index: 1;
+    background: #E8B960;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.space{
+	margin: 10px 0px;
+}
+#mobile i{
+	font-size: 1.7em;
+}
+#block-form label{
+    display: block;
+    margin-top: 15px;
+}
+input{
+    outline: none;
+    color: #9e9e9e;
+    height: 20px;
+    border: 1px solid #e8e7e7;
+    border-radius: .25em;
+}
+label p{
+    margin-bottom: 4px;
+}
+input.wide{
+    width: 90%;
+}
+#block-form textarea{
+    width: 220px;
+    color: #9e9e9e;
+    outline: none;
+    border: 1px solid #e8e7e7;
+    border-radius: .25em;
+}
+#send-btn{
+    margin-top: px;
+}
+#send-btn input{
+    color: inherit;
+    float: right;
+    border: none;
+    height: 20px;
+    font-size: 0.85em;
+    background-color: #E8B960;
+    border-radius: 2px;
+}
